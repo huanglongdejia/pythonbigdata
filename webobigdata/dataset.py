@@ -18,6 +18,7 @@ for root, dirs, files in os.walk(
         fileContents.append(fileContent)
 
 import pandas
+
 corpos = pandas.DataFrame({
     'filePath': filePaths,
     'fileContent': fileContents
